@@ -12,14 +12,12 @@
         <PackageReference Update="Microsoft.VisualStudio.ProjectSystem" Version="$(MicrosoftVisualStudioProjectSystemVersion)" />
         <PackageReference Update="Microsoft.VisualStudio.ProjectSystem.Analyzers" Version="$(MicrosoftVisualStudioProjectSystemVersion)" />
         <PackageReference Update="Microsoft.VisualStudio.SDK.EmbedInteropTypes" Version="$(MicrosoftVisualStudioSdkEmbedInteropTypesVersion)" />
+        <PackageReference Update="Microsoft.VisualStudio.Shell.15.0" Version="$(MicrosoftVisualStudioShell150Version)" />
+        <PackageReference Update="Microsoft.VisualStudio.Shell.Framework" Version="$(MicrosoftVisualStudioShellFrameworkVersion)" />
         <PackageReference Update="Microsoft.VisualStudio.Threading.Analyzers" Version="$(MicrosoftVisualStudioThreadingAnalyzersVersion)" />
         <PackageReference Update="Microsoft.VSSDK.BuildTools" Version="$(MicrosoftVSSDKBuildToolsVersion)" />
         <PackageReference Update="MSTest.TestAdapter" Version="$(MSTestVersion)" />
         <PackageReference Update="MSTest.TestFramework" Version="$(MSTestVersion)" />
-    </ItemGroup>
-
-    <ItemGroup>
-        <PackageReference Update="@(RoslynAnalyzer)" Version="$(RoslynAnalyzersVersion)" />
     </ItemGroup>
 
 </Project>
